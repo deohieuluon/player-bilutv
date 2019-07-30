@@ -1,0 +1,48 @@
+.jw-skin-halimthemes .jw-display-icon-container{height:5em;width:5em;border-radius:100%}.jw-skin-halimthemes .jw-controlbar{background:-moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,1) 100%);background:-webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,1) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,1) 100%)}.jw-skin-halimthemes .jw-controlbar-center-group{position:absolute;top:-12px;left:0;z-index:1}.jw-skin-halimthemes .jw-controlbar-center-group .jw-progress{background-color:#f44336}.jw-skin-halimthemes .jw-controlbar-right-group{text-align:right}.jw-skin-halimthemes .jw-controlbar-center-group .jw-slider-container .jw-knob{background-color:#f44336;top:-.29em;margin-left:-.45em;width:.8em;height:.8em;border-radius:100%;transition:transform .2s ease-in-out,opacity .2s ease-in-out;opacity:0;transform:scale(0)}.jw-skin-halimthemes .jw-controlbar-center-group .jw-buffer,.jw-skin-halimthemes .jw-controlbar-center-group .jw-progress,.jw-skin-halimthemes .jw-controlbar-center-group .jw-rail{transform:scaleY(.7);transition:transform .2s ease}.jw-skin-halimthemes .jw-controlbar-center-group:hover .jw-slider-container .jw-knob{opacity:1;transform:scale(1)}.jw-skin-halimthemes .jw-controlbar-center-group:hover .jw-buffer,.jw-skin-halimthemes .jw-controlbar-center-group:hover .jw-progress,.jw-skin-halimthemes .jw-controlbar-center-group:hover .jw-rail{transform:scaleY(1.2)}.jw-skin-halimthemes .jw-text{font-weight:700}.jw-skin-halimthemes .jw-icon:not(.jw-icon-display){transition:color .2s ease-in-out}.jw-skin-halimthemes .jw-icon-hd:not(.jw-off){color:#f44336}.jw-skin-halimthemes .jw-button-color,.jw-skin-halimthemes .jw-toggle.jw-off{color:#fff}.jw-skin-halimthemes:not(.jw-flag-touch) .jw-button-color:hover:not(.jw-icon-display){color:#f44336}.jw-skin-halimthemes .jw-overlay{transition:opacity .2s ease-in-out}.jw-skin-halimthemes .jw-slider-vertical{border-radius:5px}.jw-skin-halimthemes .jw-controlbar .jw-overlay{bottom:2.5em;z-index:2;}.jw-skin-halimthemes .jw-controlbar-center-group .jw-tooltip-time{height:25px;top:-12px}.jw-skin-halimthemes .jw-controlbar-center-group .jw-tooltip-time .jw-overlay{bottom:.5em}.jw-skin-halimthemes .jw-controlbar-center-group .jw-slider-horizontal{height:18px}.jw-skin-halimthemes .jw-controlbar-center-group .jw-slider-container{height:8px;top:10px}.jw-skin-halimthemes .jw-controlbar-right-group .jw-slider-vertical{padding:1em}.jw-skin-halimthemes .jw-controlbar-right-group .jw-slider-vertical .jw-knob{left:-.165em;margin-bottom:-5px;width:.6em;height:.6em;border-radius:100%}.jw-skin-halimthemes.jw-breakpoint-0 .jw-text-duration,.jw-skin-halimthemes.jw-breakpoint-0 .jw-text-elapsed,.jw-skin-halimthemes.jw-breakpoint-1 .jw-text-duration,.jw-skin-halimthemes.jw-breakpoint-1 .jw-text-elapsed{display:inline-block}
+/*Custom jw*/
+.jwplayer.jw-state-buffering .jw-display-icon-display .jw-icon {
+            -webkit-animation: spin 0.6s linear infinite !important;
+            animation: spin 0.6s linear infinite !important;
+        }
+        .jw-progress{
+            background-color: #58b95b !important;
+        }
+          .jw-state-idle .jw-controlbar{    
+                display: table !important;
+          }
+          .jw-controlbar{
+                background: transparent !important; 
+          }
+          .jw-slider-time .jw-cue{
+            background-color: #F7F056  !important;
+          }
+          .jw-text-track-cue {
+            line-height: 140% !important;
+          }
+       /* Center the loader */
+        #loader {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          z-index: 1;
+          width: 150px;
+          height: 150px;
+          margin: -75px 0 0 -75px;
+          border: 16px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 16px solid #3498db;
+          width: 120px;
+          height: 120px;
+          -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }

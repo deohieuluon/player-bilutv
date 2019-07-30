@@ -1,0 +1,94 @@
+<VideoAdServingTemplate>
+    <Ad id="preroll-1">
+        <InLine>
+            <AdSystem>ltv</AdSystem>
+            <AdTitle>Test VPAID</AdTitle>
+            <Impression>
+                <URL>
+                    <![CDATA[ http://localhost/log?impression ]]>
+                </URL>
+            </Impression>
+            <TrackingEvents>
+                <Tracking event="start">
+                    <URL>
+                        <![CDATA[ http://localhost/log?start ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="midpoint">
+                    <URL>
+                        <![CDATA[ http://localhost/log?midpoint ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="firstQuartile">
+                    <URL>
+                        <![CDATA[ http://localhost/log?firstQuartile ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="thirdQuartile">
+                    <URL>
+                        <![CDATA[ http://localhost/log?thirdQuartile ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="complete">
+                    <URL>
+                        <![CDATA[ http://localhost/log?complete ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="mute">
+                    <URL>
+                        <![CDATA[ http://localhost/log?mute ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="fullscreen">
+                    <URL>
+                        <![CDATA[ http://localhost/log?fullscreen ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="pause">
+                    <URL>
+                        <![CDATA[ http://localhost/log?pause ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="resume">
+                    <URL>
+                        <![CDATA[ http://localhost/log?resume ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="creativeView">
+                    <URL>
+                        <![CDATA[ http://localhost/log?creativeView ]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="close">
+                    <URL>
+                        <![CDATA[ http://localhost/log?close ]]>
+                    </URL>
+                </Tracking>
+            </TrackingEvents>
+            <Video>
+                <Duration>00:00:05</Duration>
+                <AdID>preroll-1</AdID>
+                <VideoClicks>
+                    <ClickThrough>
+                        <URL id="mov.ad">http://www.google.com</URL>
+                    </ClickThrough>
+                    <ClickTracking>
+                        <URL id="mov.ad">
+                            <![CDATA[ http://localhost/log?click ]]>
+                        </URL>
+                    </ClickTracking>
+                </VideoClicks>
+                <AdParameters apiFramework="vpaid"/>
+                <MediaFiles>
+                    <MediaFile width="370" type="application/x-shockwave-flash" height="270">
+                        <URL>
+                            <![CDATA[
+                                http://playertest.longtailvideo.com/assets/vast/vpaid/SampleVPAID.swf?linear=true&duration=10&switchable=false
+                            ]]>
+                        </URL>
+                    </MediaFile>
+                </MediaFiles>
+            </Video>
+        </InLine>
+    </Ad>
+</VideoAdServingTemplate>
