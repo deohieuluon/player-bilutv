@@ -1,1 +1,0 @@
-"[{\"file\":\"http:\\\/\\\/phimkk.com\\\/hls\\\/912f18863a6fd756c5f6f60c26177948\\\/912f18863a6fd756c5f6f60c26177948.playlist.m3u8\",\"label\":\"FULL HD\",\"type\":\"video\\\/mp4\"}]"
